@@ -1,16 +1,54 @@
-# React + Vite
+# 🎾 React Courts - Horizon Tennis Club
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for **Horizon Tennis Club**, built using React and Vite. This project showcases a clean UI with professional layouts for sports facilities, featuring specialized sections for club information, services, and coaching programs.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Modern Navigation**: A fixed, blurred glass-effect navbar for seamless site exploration.
+*   **Hero Section**: High-impact promo section with call-to-action buttons and social media integration.
+*   **Interactive About Section**: A detailed grid-based layout presenting club history and key performance statistics.
+*   **Service Showcase**: Highlights training programs and court rentals using hover-effect cards.
+*   **Responsive Styling**: Built with SCSS variables and nested rules for maintainability.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Frontend**: React
+*   **Build Tool**: Vite
+*   **Styling**: SCSS (Sass)
+*   **Icons**: Remix Icon
+*   **Fonts**: PT Sans via Google Fonts
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/             # Images and static assets
+├── components/         # React functional components
+│   ├── nav.jsx         # Sticky Navbar
+│   ├── imageSection.jsx# Hero/Promo Section
+│   ├── about.jsx       # Club statistics and info
+│   ├── services.jsx    # Service cards
+│   └── style/          # Component-specific SCSS files
+└── main.jsx            # Application entry point
+```
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📝 License
+
+This project was created as a portfolio piece for learning React and Vite.
